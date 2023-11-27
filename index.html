@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sass</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    
+        <p>
+            O Sass é uma linguagem de programação, que é usada para criar um arquivo css que pode ser lido pelo nosso navegador.<br>
+            O SuperCss não é compreendido pelos outros navegadores, nesse caso precisamos compilar o arquivo Sass, para transformarmos ele em CSS.<br>
+            Normalmente para facilitar o trabalho utilizamos um extensão chamada "Live Sass Compiler" que faz a compilação automaticamente, criando assim um arquivo css feito do nosso arquivo sass.<br>
+            <h4>Conceitos Importantes de SASS.</h4>
+            <h5>Conceito de variáveis</h5>
+            Utilizamos esse conceito para deixar o nosso programa mais facil de ser interpretado, pois podemos criar uma variavel para a cor azul, e assim colocarmos em varios backgrounds de nossa aplicação e se for necessário trocar não precisamos procurar uma a uma ou utilizar um comando que pode alterar algo a mais, alteramos somente a nossa variavel que ira alterar automáticamente todas as tags que estão com essa variavel.<br>
+            Como por exemplo:<br>
+            <img src="img/Exemplo_var.JPG" /> <br>
+            Nesse exemplo acima podemo ver que ele criou uma variavel com a cor verde limão e colocou essa variável e várias tag's que eram necessária, se for necessário trocar a cor de todas essas tag's ele somente altera a cor na variável.<br>
+            <h5>Conceito de Agrupamento</h5>
+            Utilizamos esse conceito para agruparmos os elementos em um só local, assim ficando mais facil para darmos manutenção em nosso sistema.<br>
+            Como por exemplo:<br>
+            <img src="img/aexemplo_agrupamento.JPG" /><br>
+            Nesse caso do exemplo nós colocamos todos as tag's dentro da tag do elemento header para asssim ficar mais fácil na visualização.<br>
+        </p> 
+
+        <div class="header">
+            <h1>Aprenderndo Sass</h1>
+            <button>Um botão Qualquer</button>
+        </div>
+        <div class="contato">
+            <h2>Uma div qualquer</h2>
+            <button>Outro Botão</button>
+        </div>
 </body>
 </html>
