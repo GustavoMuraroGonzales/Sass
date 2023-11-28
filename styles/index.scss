@@ -1,0 +1,33 @@
+@mixin Center ($bg, $direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: $direction;
+    background: $bg;
+}
+
+.header {
+    @include Center (blue, column);
+    color:white;
+    button {
+        background: blueviolet;
+
+        &:hover {
+            background: rgb(160, 120, 197);
+        }
+        &:after {
+            content: "X"
+        }
+    } 
+    p{
+        color: black;
+    }  
+    h1{
+        color: rgb(53, 53, 53)
+    }
+}
+img {
+    height: 500px;
+}
+
