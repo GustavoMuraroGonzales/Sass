@@ -1,3 +1,28 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-direction: column;
+  background: blue;
+  color: white;
+}
+.header button {
+  background: blueviolet;
+}
+.header button:hover {
+  background: rgb(160, 120, 197);
+}
+.header button:after {
+  content: "X";
+}
+.header p {
+  color: black;
+}
+.header h1 {
+  color: rgb(53, 53, 53);
+}
+
 img {
   height: 500px;
 }/*# sourceMappingURL=index.css.map */
